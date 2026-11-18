@@ -1,0 +1,7 @@
+# PLE Benchmark Official Submission Configuration
+name: code-gated-dual-tier-harness
+model_api: google-cloud/gemini-4-argon
+install: pip install websockets ezdxf shapely
+serve: python serve.py
+env:
+  MAX_OUTPUT_TOKENS: "8192"
